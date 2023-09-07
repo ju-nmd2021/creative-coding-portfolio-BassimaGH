@@ -22,7 +22,7 @@
   },
   {
     "file": "experiments/static.js",
-    "name": "Perlin noise grid HSB",
+    "name": "Perlin noise grid HSB (animated on click)",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/BassimaGH"
@@ -30,6 +30,55 @@
   {
     "file": "experiments/threeRec.js",
     "name": "3d",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/vectors.js",
+    "name": "vector example",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/vectors2.js",
+    "name": "vector example 2",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/gravity.js",
+    "name": "gravity art",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/flows.js",
+    "name": "flow animation",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/flow2.js",
+    "name": "flow on click",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/fireworks.js",
+    "name": "firework particles on click",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/flow3.js",
+    "name": "flow 3",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/BassimaGH"
