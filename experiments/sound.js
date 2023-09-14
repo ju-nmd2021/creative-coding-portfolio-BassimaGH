@@ -3,7 +3,7 @@ let oscillator;
 let analyser;
 
 window.addEventListener("load", () => {
-  player = new Tone.Player("assets/heart-race.mp3");
+  player = new Tone.Player("assets/soundFiles/heart-race.mp3");
   oscillator = new Tone.Oscillator(440, "sine").toDestination();
 
   analyser = new Tone.Analyser("fft", 4096);
@@ -21,6 +21,7 @@ window.addEventListener("click", () => {
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
+  Tone.start();
 }
 
 function draw() {

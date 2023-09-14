@@ -75,5 +75,12 @@
     "description": "This system draws lines with diffirent green and yellow hues using flow fields with sharp angles.",
     "background": "I used my 'Circles and lines flow field animation' and Tyler Hobbs flow field's article as a starting point. Then I changed the angle division to multiplication to create sharper flows.",
     "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/sound.js",
+    "name": "Sound waves",
+    "description": "This system draws lines with diffirent green and yellow hues using flow fields with sharp angles.",
+    "background": "I used my 'Circles and lines flow field animation' and Tyler Hobbs flow field's article as a starting point. Then I changed the angle division to multiplication to create sharper flows.",
+    "github": "https://www.github.com/BassimaGH"
   }
 ]
