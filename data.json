@@ -1,86 +1,79 @@
 [
   {
     "file": "experiments/example.js",
-    "name": "Name of your experiment 1",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/pixelkind"
+    "name": "Cricle & line 2d spiral",
+    "description": "This system generates a 2d spiral using the rotate function that has the frameCount divided by a value as an input. Then I used the ellips function and gave it random values for its size. Lastly, I added lines with the same size and diffirent positions.",
+    "background": "I took the initial example that was provided in the portfolio website and changed some values, added randomness, and diffirent shapes.",
+    "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/perlin_noise.js",
     "name": "Perlin noise triangles",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "This system uses perlin noise that changes with 0.02 each time as a fill to the triangles",
+    "background": "I used the example from p5js references and chatgpt as a inspiration for this and changed the shape and values.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/sandy.js",
     "name": "Flowers",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "This system generates ellips and run them in a for loop to create a flower shape. After the shape is created, it is generates multipe ones that are arranged in a grid that is centered.",
+    "background": "I used code for making a flower using the ellips function from p5js reference as a starting point. Then I added more shapes on top of each other using diffirent colors and values for size.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/static.js",
     "name": "Perlin noise grid HSB (animated on click)",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/BassimaGH"
-  },
-  {
-    "file": "experiments/threeRec.js",
-    "name": "3d",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "This system generates a grid of of ellipses that have a slightly diffirent color using perlin noise and smaller ellipses that have random HBS color values for their fill. Then it takes this grid and puts it in another grid that is centered.",
+    "background": "I used the previous perline noise and grid (from Garit's codepen) example as a starting point for this project.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/vectors.js",
-    "name": "vector example",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "name": "Circles line (mouse position and vectors)",
+    "description": "This system uses the mouse position as an object that serves as a destination for the circles that are generated in a line form with diffirent size each time they are drawn.",
+    "background": "I used the mouse follow example from Garit's codepen and changed the the shape's size, color, and the loop.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/vectors2.js",
-    "name": "vector example 2",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "name": "Circles line kaleidoscope (mouse position and vectors)",
+    "description": "This system uses the mouse position to draw symmitrical lines that are made of randome sized and color ellips, which gives a kaleidoscope effect",
+    "background": "I used the previous 'Circles line (mouse position and vectors)', p5js project reference, and kaleidoscope generative art as a starting point. Then I changed values, added some randomeness, and color to make it uniqe.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/gravity.js",
     "name": "gravity art",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "This system uses an object as a planet (is hidden in the art) and draws objects (lines with random colors) that are attracted to it using gravity, vectors, and acceleration.",
+    "background": "I used Garit's gravity example as a starting point for this project. Then I changed the values and shapes.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/flows.js",
-    "name": "flow animation",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "name": "Circles and lines flow field animation",
+    "description": "This system generates an agents that has directions that generates a flow made up of these agents.",
+    "background": "I used Garit's line flow field example as a starting point. Then I changed the direction, values, and shapes.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/flow2.js",
-    "name": "flow on click",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "name": "Candy tilt on click",
+    "description": "This system draws a candy like shape using ellips function then use them as agents to generate a flow that changes directions when clicking on the screen.",
+    "background": "I used Garit's arrow flow field example and my 'Circles and lines flow field animation' as a starting point. Then changed the shape and made the colors change randomly.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/fireworks.js",
     "name": "firework particles on click",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "This system generates particles that have a lifespan and store them in an array. Then draw them in the using the mouseX and mouseY positions.",
+    "background": "I used Garit's particles examples as a starting point, then I furthur developed it by changing the colors hues and the particles' lifespan and shape.",
     "github": "https://www.github.com/BassimaGH"
   },
   {
     "file": "experiments/flow3.js",
-    "name": "flow 3",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "name": "Low staturation lines flow field (sharp angles)",
+    "description": "This system draws lines with diffirent green and yellow hues using flow fields with sharp angles.",
+    "background": "I used my 'Circles and lines flow field animation' and Tyler Hobbs flow field's article as a starting point. Then I changed the angle division to multiplication to create sharper flows.",
     "github": "https://www.github.com/BassimaGH"
   }
 ]
