@@ -1,3 +1,24 @@
+let player;
+let oscillator;
+let analyser;
+
+window.addEventListener("load", () => {
+  player = new Tone.Player("assets/soundFiles/ocean-floor.mp3");
+  oscillator = new Tone.Oscillator(440, "sine").toDestination();
+
+  analyser = new Tone.Analyser("fft", 4096);
+
+  oscillator.connect(analyser);
+  oscillator.toDestination();
+  player.connect(analyser);
+  player.toDestination();
+});
+
+window.addEventListener("click", () => {
+  player.start();
+  // oscillator.start();
+});
+
 function setup() {
   createCanvas(innerWidth, innerHeight);
   // background(34, 39, 46);
