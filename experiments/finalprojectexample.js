@@ -1,13 +1,17 @@
-// ChatGPT. (2023). Using ml5.js Handpose to Control Shape Size in p5.js. Retrieved from [https://chat.openai.com/c/7be057ff-9c69-44c6-a317-0eea98d5d8fc]
+// ChatGPT. (2023). Using ml5.js Handpose to Control Shape Size in p5.js. Retrieved from [insert link if applicable]
+//global variable
 
 let handpose;
 let video;
 let predictions = [];
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(innerWidth, innerHeight);
   video = createCapture(VIDEO);
-  video.size(width, height);
+  video.size(innerWidth, innerHeight);
+  angleMode(DEGREES);
+  colorMode(HSB, 360, 100, 100, 100); // sets the color mode to HSB with specific ranges.
+  frameRate(30);
 
   handpose = ml5.handpose(video, modelReady);
 
@@ -27,14 +31,12 @@ function modelReady() {
 
 function draw() {
   // image(video, 0, 0, width, height);
+  // mandalaArt();
   background(255);
 
   // We can call both functions to draw all keypoints and the skeletons
   drawKeypoints();
-  drawCircle();
-}
 
-function drawCircle() {
   if (predictions.length > 0) {
     let landmarks = predictions[0].landmarks;
 
@@ -43,14 +45,33 @@ function drawCircle() {
     let thumbY = landmarks[4][1];
     let indexX = landmarks[8][0];
     let indexY = landmarks[8][1];
-    let distance = dist(thumbX, thumbY, indexX, indexY);
 
-    // Map the distance to control the size of the circle
-    let circleSize = map(distance, 0, 100, 10, 100);
+    let currentThumbX = thumbX;
+    let currentIndexX = indexX;
 
-    // Draw a circle based on hand movement
-    fill(255, 0, 0);
-    ellipse(width / 2, height / 2, circleSize, circleSize);
+    let currentThumbY = thumbY;
+    let currentIndexY = indexY;
+
+    currentIndexX += (indexX - currentIndexX) / 5;
+    currentThumbX += (thumbX - currentThumbX) / 5;
+
+    currentIndexY += (indexY - currentIndexY) / 5;
+    currentThumbY += (thumbY - currentThumbY) / 5;
+
+    let distance = dist(
+      currentThumbX,
+      currentThumbY,
+      currentIndexX,
+      currentIndexY
+    );
+
+    // let smoothDistance =
+
+    // Map the distance to control the size of the mandala
+    let mandalaSize = map(distance, 0, 100, 0.2, 2.0); // Adjust the range as needed
+
+    // Call the mandalaArt function with the hand size
+    mandalaArt(mandalaSize);
   }
 }
 

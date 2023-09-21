@@ -1,7 +1,7 @@
 [
   {
     "file": "experiments/example.js",
-    "name": "Cricle & line 2d spiral",
+    "name": "Cricle & line 2d spiral (sound on click)",
     "description": "This system generates a 2d spiral using the rotate function that has the frameCount divided by a value as an input. Then I used the ellips function and gave it random values for its size. Lastly, I added lines with the same size and diffirent positions.",
     "background": "I took the initial example that was provided in the portfolio website and changed some values, added randomness, and diffirent shapes.",
     "github": "https://www.github.com/BassimaGH"
@@ -9,7 +9,7 @@
   {
     "file": "experiments/perlin_noise.js",
     "name": "Perlin noise triangles",
-    "description": "This system uses perlin noise that changes with 0.02 each time as a fill to the triangles",
+    "description": "This system uses perlin noise that changes with 0.02 each time as a fill to the triangles (added HBS and kaleidoscope effect)",
     "background": "I used the example from p5js references and chatgpt as a inspiration for this and changed the shape and values.",
     "github": "https://www.github.com/BassimaGH"
   },
@@ -30,7 +30,7 @@
   {
     "file": "experiments/vectors.js",
     "name": "Circles line (mouse position and vectors)",
-    "description": "This system uses the mouse position as an object that serves as a destination for the circles that are generated in a line form with diffirent size each time they are drawn.",
+    "description": "This system uses the mouse position as an object that serves as a destination for the circles (changed it to quads) that are generated in a line form with diffirent size each time they are drawn.",
     "background": "I used the mouse follow example from Garit's codepen and changed the the shape's size, color, and the loop.",
     "github": "https://www.github.com/BassimaGH"
   },
@@ -79,15 +79,8 @@
   {
     "file": "experiments/sound.js",
     "name": "Sound waves",
-    "description": "This system draws lines with diffirent green and yellow hues using flow fields with sharp angles.",
-    "background": "I used my 'Circles and lines flow field animation' and Tyler Hobbs flow field's article as a starting point. Then I changed the angle division to multiplication to create sharper flows.",
-    "github": "https://www.github.com/BassimaGH"
-  },
-  {
-    "file": "experiments/finalprojectexample.js",
-    "name": "final project",
-    "description": "This system draws lines with diffirent green and yellow hues using flow fields with sharp angles.",
-    "background": "I used my 'Circles and lines flow field animation' and Tyler Hobbs flow field's article as a starting point. Then I changed the angle division to multiplication to create sharper flows.",
+    "description": "This system draws thin rectangles, circles with random sizes, and a black/white game of life. When clicking on the screen, the rectangles show with random colors and music startes playing.",
+    "background": "I used Garit's sound wave example as a starting point. Then I changed the colors  and added rotating circles to create a sharp and obscure mood.",
     "github": "https://www.github.com/BassimaGH"
   }
 ]

@@ -20,7 +20,7 @@ class Particle {
     noStroke();
     fill(random(255), random(255), 255, 80);
     ellipse(0, 0, 6);
-    ellipse(0, 0, 12);
+    square(0, 0, 12);
     pop();
   }
 

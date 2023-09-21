@@ -5,6 +5,7 @@ const gap = 20;
 function setup() {
   createCanvas(innerWidth, innerHeight);
   background(255);
+  colorMode(HSB);
 }
 
 function pNoise() {
@@ -17,8 +18,32 @@ function pNoise() {
       let noiseValue = noise(xOff, yOff) * 255; // Generate noise value between 0 and 255
       noStroke();
 
-      fill(noiseValue);
-      triangle(x, y, x + 50, y + 50, 10, 10);
+      push();
+      fill(noiseValue, 200, 90);
+      triangle(20, 10, x, y, 10, 20);
+      pop();
+
+      push();
+      fill(noiseValue, 100, 50);
+      triangle(
+        width - 20,
+        height - 10,
+        width - x,
+        height - y,
+        width - 10,
+        height - 20
+      );
+      pop();
+
+      push();
+      fill(noiseValue, 250, 10);
+      triangle(width - 20, 10, width - x, y, width - 10, 20);
+      pop();
+
+      push();
+      fill(noiseValue, 50, 250);
+      triangle(20, height - 10, x, height - y, 10, height - 20);
+      pop();
 
       xOff += increment; // Increment X offset for next column
       x += size + gap;

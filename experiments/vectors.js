@@ -12,23 +12,52 @@ function setup() {
 }
 
 function draw() {
-  noStroke();
+  // noStroke();
 
+  let w = random(100);
+  let h = random(100);
   push();
   fill(20, random(255), 150);
-  ellipse(position.x, position.y, random(50));
+  quad(
+    position.x - w / 2,
+    position.y - h / 2,
+    position.x + w / 2,
+    position.y - h / 2,
+    position.x + w / 2,
+    position.y + h / 2,
+    position.x - w / 2,
+    position.y + h / 2
+  );
   pop();
 
   push();
-  fill(random(255), 255, 255);
+  fill(random(155), 255, 255);
   translate(position.x / 2, position.y / 2);
-  ellipse(position.x, position.y, random(50, 100));
+  quad(
+    position.x - w / 2,
+    position.y - h / 2,
+    position.x + w / 2,
+    position.y - h / 2,
+    position.x + w / 2,
+    position.y + h / 2,
+    position.x - w / 2,
+    position.y + h / 2
+  );
   pop();
 
   push();
-  fill(150, 100, random(255));
-  translate(position.x * 2, position.y * 2);
-  ellipse(position.x, position.y, random(100));
+  fill(10, 200, random(255));
+  translate(position.x * 1.5, position.y * 1.5);
+  quad(
+    position.x - w / 2,
+    position.y - h / 2,
+    position.x + w / 2,
+    position.y - h / 2,
+    position.x + w / 2,
+    position.y + h / 2,
+    position.x - w / 2,
+    position.y + h / 2
+  );
   pop();
 
   // Check for the walls
