@@ -82,5 +82,12 @@
     "description": "This system draws thin rectangles, circles with random sizes, and a black/white game of life. When clicking on the screen, the rectangles show with random colors and music startes playing.",
     "background": "I used Garit's sound wave example as a starting point. Then I changed the colors  and added rotating circles to create a sharp and obscure mood.",
     "github": "https://www.github.com/BassimaGH"
+  },
+  {
+    "file": "experiments/finalprojectFLOWFIELD.js",
+    "name": "flow final waves",
+    "description": "This system draws thin rectangles, circles with random sizes, and a black/white game of life. When clicking on the screen, the rectangles show with random colors and music startes playing.",
+    "background": "I used Garit's sound wave example as a starting point. Then I changed the colors  and added rotating circles to create a sharp and obscure mood.",
+    "github": "https://www.github.com/BassimaGH"
   }
 ]
